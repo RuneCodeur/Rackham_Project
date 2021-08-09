@@ -1,0 +1,23 @@
+$colorPrimary: #073adc;
+$colorSecondary: #2f22c1;
+$colorTertiary: #d19c1d;
+$colorPentary: #7d451b;
+$colorQintary: #472c1b;
+$colorFont: #0000;
+
+/* color : voir --> https://coolors.co/073adc-2f22c1-d19c1d-7d451b-472c1b*/
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+*{
+    color: black;
+    text-decoration: none;
+    font-family: 'Berkshire Swash', cursive;
+}
+h1{
+    font-family: 'Trade Winds', cursive;
+}

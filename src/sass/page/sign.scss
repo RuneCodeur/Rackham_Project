@@ -1,0 +1,336 @@
+
+.sign{
+    min-width: 1000px;
+    margin-top: 75px;
+    padding: 20px 20px 20px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background: rgb(214, 125, 8);
+    .perso-animated{
+        width: 400px;
+        background-color: grey;
+    }
+    .no-perso{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        header{
+            width: 700px;
+            display: flex;
+            justify-content: center;
+            .info-primary{
+                width: 600px;
+                min-width: 430px;
+                .name,.pseudo,.class,.level,.pv{
+                    align-items: center;
+                    justify-content: center;
+                    margin: 4px 0;
+                    display: flex;
+                    font-size: 20px;
+                    font-family: 'Trade Winds', cursive;
+                    h1{
+                        margin: 0 0 0 25px;
+                    }
+                }
+            }
+        }
+        .view{
+            display: flex;
+            justify-content:space-around;
+            *{
+                background-color: grey;
+                width: 190px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content:space-around;
+            }
+        }
+    }
+}
+  
+.stats{
+    width: 680px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    h2{
+        display: flex;
+        justify-content: center;
+        margin: 10px 0 0 0;
+    }
+    ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin-top: 5px;
+        li{
+            list-style: none;
+            border: 1px black solid;
+            width: 105px;
+            height: 70px;
+            text-align: center;
+            .stat:hover + .descri{
+                opacity: 1;
+            }
+            .stat{
+                margin: 0;
+                .titleStat{
+                    font-size: 20px;
+                    margin-bottom: 0;
+                }
+                .value{
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    bottom: 5px;
+                    font-size: 35px;
+                }
+            }
+            .descri{
+                opacity: 0;
+                border: 3px black solid;
+                width: 640px;
+                top: 10px;
+                position: relative;
+            }
+            .fo{
+                left: 0;
+            }
+            .int{
+                left: -135px;
+            }
+            .ad{
+                left: -270px;
+            }
+            .vol{
+                left: -405px;
+            }
+            .cha{
+                left: -540px;
+            }
+        }
+    }
+}
+
+.volet-skill{
+    display: flex;
+    justify-content: center;
+    ul{
+        margin: 0;
+        background: rgb(192, 192, 192);
+        height: 230px;
+        width: 650px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        left: 0px;
+        padding: 0;
+        li{
+            display: flex;
+            height: 35px;
+            h3{
+                min-width: 150px;
+                background: chocolate;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin: 8px 0 0px 10px;
+            }
+            div{
+                font-family: 'Hahmlet', serif;
+                height: 230px;
+                position: relative;
+                margin-left: 10px;
+                padding: 10px;
+                width: 460px ;
+                background-color: greenyellow;
+            }
+        }
+    }
+    #skill-1{
+        top: 0;
+    }
+    #skill-2{
+        top: -35px;
+    }
+    #skill-3{
+        top: -70px;
+    }
+    #skill-4{
+        top: -105px;
+    }
+    #skill-5{
+        top: -140px;
+    }
+    #skill-6{
+        top: -175px;
+    }  
+}
+
+.volet-story{
+    display: flex;
+    justify-content: center;
+    ul {
+        margin: 0;
+        background: rgb(192, 192, 192);
+        height: 430px;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        left: 0px;
+        padding: 0;
+        li{
+            display: flex;
+            height: 35px;
+            h3{
+                min-width: 150px;
+                background: chocolate;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin: 8px 0 0px 10px;
+            }
+            div{
+                font-family: 'Hahmlet', serif;
+                height: 430px;
+                position: relative;
+                margin-left: 10px;
+                padding: 10px;
+                width: 460px ;
+                background-color: greenyellow;
+            }
+        }
+    }
+    #story-1{
+        top: 0;
+    }
+    #story-2{
+        top: -35px;
+        #tableau{
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            .exp{
+                height: 60px;
+                margin: 2px 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-bottom: 3px black solid;
+                .date{
+                    height: 45px;
+                    margin: 0;
+                    padding: 0;
+                    width: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    border-right: 3px red solid;
+                }
+                .def{
+                    font-size: 16px;
+                    width: 350px;
+                    height: 20px;
+                    margin: 0;
+                    padding: 0;
+                }
+                .lieu{
+                    margin: 0;
+                    padding: 0;
+                    height: 20px;
+                    width: 350px;
+                }
+                
+            }.final{
+                    border-bottom: none;
+                }
+        }
+    }
+    #story-3{
+        top: -70px;
+        div{
+            width: auto;
+            height: auto;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            a:hover{
+                text-decoration: underline;
+            }
+            a{
+                text-align: center;
+            }
+        }
+        .projet{
+            justify-content: space-between;
+            border-bottom: 3px red solid;
+            margin-bottom: 3px;
+            .descri{
+                font-size: 15px;
+                a{
+                    font-size: 18px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    #story-4{
+        top: -105px;
+        display: flex;
+        justify-content: space-around;
+        .passion{
+            margin: 0;
+            width: 90px;
+            height: 130px;
+            p{
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+.volet-mapping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #contact{
+        width: 650px;
+        padding-left: 30px;
+        p{
+            font-size: 20px;
+            margin: 15px 0;
+            i{
+                position: relative;
+                font-size: 20px;
+                margin: 0 10px 0 10px;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    #googlemap{
+        border: 3px red solid;
+        width: 650px;
+        height: 288px;
+    }
+}
