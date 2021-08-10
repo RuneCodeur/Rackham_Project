@@ -2,8 +2,8 @@
   <div class="volet-story">
     <ul>
       <li>
-        <h3  id="titleStory-1" @click="changeStory (1)">Profil</h3>
-        <div id="story-1">
+        <h3  id="titleStory-1" @click="story1 = true, story2 = false, story3 = false, story4 = false">Profil</h3>
+        <div id="story-1" v-show="story1">
           Je me nome Jonathan LARROUX et j'ai 28 ans.<br> <br>
           Curieux, persévérant et autonome, je suis développeur web récemment sorti de l'école OpenClassrooms. Je maitrise correctement les langages Javascript, vue, node, MySQL git/github mais aussi la réalisation et la présentation de projet, l'optimisation SEO et la sécurité de l'OWASP. Les différents projets pour obtenir le diplôme de développeur Web m'on permis de valider mes compétences, ainsi que de gagner en aisance dans la lecture et l'écriture du code.<br>
           <br>
@@ -12,8 +12,8 @@
       </li>
 
       <li>
-        <h3 id="titleStory-2" @click="changeStory (2)">Biographie</h3>
-        <div id="story-2">
+        <h3 id="titleStory-2" @click="story1 = false, story2 = true, story3 = false, story4 = false">Biographie</h3>
+        <div id="story-2" v-show="story2">
 
           <div id="tableau">
 
@@ -58,8 +58,8 @@
       </li>
 
       <li>
-        <h3 id="titleStory-3" @click="changeStory (3)">Hauts-faits</h3>
-        <div id="story-3">
+        <h3 id="titleStory-3" @click="story1 = false, story2 = false, story3 = true, story4 = false">Hauts-faits</h3>
+        <div id="story-3" v-show="story3">
           <div>Projets OpenClassrooms</div>
           <div class="projet">
             <div class="descri">réaliser un site web à partir d'une maquette</div>
@@ -98,8 +98,8 @@
       </li>
 
       <li>
-        <h3 id="titleStory-4" @click="changeStory (4)">Hobbies</h3>
-        <div id="story-4">
+        <h3 id="titleStory-4" @click="story1 = false, story2 = false, story3 = false, story4 = true">Hobbies</h3>
+        <div id="story-4" v-show="story4">
           <div class="passion">
             <img :src="require('../assets/game.svg')" alt="retro gaming" width="90">
             <p>retro-gaming</p>
@@ -127,29 +127,18 @@
 export default {
   data () {
     return {
-      /* base des valeurs */
+      story1: true,
+      story2: false,
+      story3: false,
+      story4: false
     }
   },
 
   mounted: function () {
-    document.getElementById('story-2').style.opacity = 0
-    document.getElementById('story-3').style.opacity = 0
-    document.getElementById('story-4').style.opacity = 0
   },
 
   methods: {
-    changeStory (value) {
-      document.getElementById('story-1').style.opacity = 0
-      document.getElementById('story-1').style.zIndex = 1
-      document.getElementById('story-2').style.opacity = 0
-      document.getElementById('story-2').style.zIndex = 2
-      document.getElementById('story-3').style.opacity = 0
-      document.getElementById('story-3').style.zIndex = 3
-      document.getElementById('story-4').style.opacity = 0
-      document.getElementById('story-4').style.zIndex = 4
-      document.getElementById(`story-${value}`).style.opacity = 1
-      document.getElementById(`story-${value}`).style.zIndex = 5
-    }
+
   }
 }
 </script>

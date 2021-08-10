@@ -1,0 +1,22 @@
+#bloc-router{
+    overflow: hidden;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+    transition: all 0.5s ease-out;
+}
+
+.slide-leave-to {
+    opacity: 0;
+    transform: scale(0.9);
+}
+
+.slide-enter-to {
+    position: relative;
+    right: 0;
+  }
+  .slide-enter-from {
+    position: relative;
+    right: -100%;
+  }

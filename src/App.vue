@@ -23,7 +23,13 @@
         <router-link :to="{ name: 'mapping' }">contact</router-link>
       </div>
 
-      <router-view/>
+      <div id="bloc-router">
+        <router-view id="router-view" v-slot="{ Component }">
+          <transition id="slide" name="slide" mode="out-in">
+            <component :is="Component" />
+          </transition>
+        </router-view>
+      </div>
 
     </div>
   </div>
@@ -36,6 +42,9 @@ export default {
     return {
       /* base des valeurs */
     }
+  },
+
+  mounted: function () {
   },
 
   methods: {
