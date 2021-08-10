@@ -18,9 +18,27 @@
       </header>
 
       <div class="view">
-        <router-link :to="{ name: 'skill' }">compétences</router-link>
-        <router-link :to="{ name: 'story' }">histoire</router-link>
-        <router-link :to="{ name: 'mapping' }">contact</router-link>
+        <div id="rl-1" @click="selectView (1)">
+          <router-link :to="{ name: 'skill' }" class="routerLink">
+            <p>Compétences</p>
+          </router-link>
+          <span id="span-rl-1"></span>
+        </div>
+
+        <div id="rl-2" @click="selectView (2)">
+          <router-link :to="{ name: 'story' }" class="routerLink">
+            <p>Mon Histoire</p>
+          </router-link>
+          <span id="span-rl-2"></span>
+        </div>
+
+        <div id="rl-3" @click="selectView (3)">
+          <router-link :to="{ name: 'mapping' }" class="routerLink">
+            <p>Contact</p>
+          </router-link>
+          <span id="span-rl-3"></span>
+        </div>
+
       </div>
 
       <div id="bloc-router">
@@ -45,10 +63,29 @@ export default {
   },
 
   mounted: function () {
+    document.getElementById('span-rl-1').style.transform = 'scaleX(1)'
   },
 
   methods: {
-    /* base des fonctions */
+    selectView (e) {
+      document.getElementById('span-rl-1').style.opacity = 0
+      document.getElementById('span-rl-2').style.opacity = 0
+      document.getElementById('span-rl-3').style.opacity = 0
+      document.getElementById(`span-rl-${e}`).style.opacity = 1
+      document.getElementById(`span-rl-${e}`).style.transform = 'scaleX(1)'
+      setTimeout(function () {
+        document.getElementById('span-rl-1').style.transform = 'scaleX(0)'
+        document.getElementById('span-rl-2').style.transform = 'scaleX(0)'
+        document.getElementById('span-rl-3').style.transform = 'scaleX(0)'
+        document.getElementById(`span-rl-${e}`).style.transform = 'scaleX(1)'
+        setTimeout(function () {
+          document.getElementById('span-rl-1').style.opacity = 1
+          document.getElementById('span-rl-2').style.opacity = 1
+          document.getElementById('span-rl-3').style.opacity = 1
+          document.getElementById(`span-rl-${e}`).style.opacity = 1
+        }, 400)
+      }, 400)
+    }
   }
 }
 </script>

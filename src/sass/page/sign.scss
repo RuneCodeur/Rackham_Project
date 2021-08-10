@@ -1,15 +1,20 @@
 
 .sign{
-    min-width: 1000px;
-    margin-top: 75px;
+    width: 1100px;
+    height: 675px;
+    margin: 75px 0;
     padding: 20px 20px 20px 0;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    background: rgb(214, 125, 8);
+    background: url('../src/assets/paper3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     .perso-animated{
-        width: 400px;
-        background-color: grey;
+        margin: 0;
+        min-width: 400px;
+        height: 670px;
+        background-image: url(../src/assets/bg-perso.jpg);
     }
     .no-perso{
         width: 700px;
@@ -38,13 +43,31 @@
         .view{
             display: flex;
             justify-content:space-around;
-            *{
-                background-color: grey;
-                width: 190px;
-                height: 30px;
+            .routerLink{
+                width: 200px;
+                height: 40px;
                 display: flex;
                 align-items: center;
                 justify-content:space-around;
+                background-image: url('../src/assets/pinceau.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                P{
+                    color: rgb(250, 222, 162);
+                    font-size: 20px;
+                    font-weight: 1000;
+                }
+            
+            }
+            span{
+                display: flex;
+                position: absolute;
+                transform: scaleX(0);
+                transform-origin: left 50%;
+                height: 3px;
+                transition: 0.4s;
+                width: 200px;
+                background: black;
             }
         }
     }
@@ -56,14 +79,15 @@
     align-items: center;
     .stats{
         width: 680px;
-        height: 200px;
+        padding: 0;
+        height: 195px;
         display: flex;
         flex-direction: column;
         font-size: 20px;
         h2{
             display: flex;
             justify-content: center;
-            margin: 10px 0 0 0;
+            margin: 5px 0 0 0;
         }
         ul{
             display: flex;
@@ -120,36 +144,48 @@
     display: flex;
     justify-content: center;
     ul{
+        padding: 0;
         margin: 0;
-        background: rgb(192, 192, 192);
-        height: 230px;
+        height: 235px;
         width: 650px;
         overflow: hidden;
         position: relative;
         display: flex;
         flex-direction: column;
         left: 0px;
-        padding: 0;
         li{
             display: flex;
-            height: 35px;
+            height: 36px;
             h3{
                 min-width: 150px;
-                background: chocolate;
+                height: 30px;
+                background: rgb(112, 34, 34);
+                color: rgb(250, 222, 162);
+                font-size: 20px;
+                font-weight: 1000;
                 display: flex;
                 align-items: center;
+                position: relative;
                 justify-content: center;
                 text-align: center;
                 margin: 8px 0 0px 10px;
+                border-radius: 0 0 0 15px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            h3:hover{
+                transition: all 0.1s ease-in-out;
+                min-width: 160px;
+                transform:translateX(-10px);
+                margin-right: 0px;
             }
             div{
                 font-family: 'Hahmlet', serif;
                 height: 230px;
                 position: relative;
-                margin-left: 10px;
                 padding: 10px;
                 width: 460px ;
-                background-color: greenyellow;
+                background-color: rgba(251, 240, 216, 0.637);
             }
         }
     }
@@ -158,19 +194,19 @@
         z-index: 1;
     }
     #skill-2{
-        top: -35px;
+        top: -36px;
     }
     #skill-3{
-        top: -70px;
+        top: -72px;
     }
     #skill-4{
-        top: -105px;
+        top: -108px;
     }
     #skill-5{
-        top: -140px;
+        top: -144px;
     }
     #skill-6{
-        top: -175px;
+        top: -180px;
     }  
 }
 
@@ -178,9 +214,8 @@
     display: flex;
     justify-content: center;
     ul {
-        margin: 0;
-        background: rgb(192, 192, 192);
-        height: 430px;
+        margin: 15px 0 0 0;
+        height: 425px;
         overflow: hidden;
         position: relative;
         display: flex;
@@ -190,24 +225,40 @@
         padding: 0;
         li{
             display: flex;
-            height: 35px;
+            height: 36px;
             h3{
                 min-width: 150px;
-                background: chocolate;
+                height: 30px;
+                background: rgb(121, 8, 8);
+                color: rgb(250, 222, 162);
+                font-size: 20px;
+                font-weight: 1000;
                 display: flex;
                 align-items: center;
+                position: relative;
                 justify-content: center;
                 text-align: center;
                 margin: 8px 0 0px 10px;
+                border-radius: 0 0 0 15px;
+                margin-right: 10px;
+                cursor: pointer;
             }
-            div{
+            h3:hover{
+                transition: all 0.1s ease-in-out;
+                min-width: 160px;
+                transform:translateX(-10px);
+                margin-right: 0px;
+            }
+            #story-1, #story-2, #story-3, #story-4, div{
                 font-family: 'Hahmlet', serif;
                 height: 430px;
                 position: relative;
-                margin-left: 10px;
                 padding: 10px;
                 width: 460px ;
-                background-color: greenyellow;
+                background-color: rgba(251, 240, 216, 0.637);
+                div{
+                    background-color:rgba(0, 0, 0, 0);
+                }
             }
         }
     }
@@ -216,7 +267,7 @@
         z-index: 1;
     }
     #story-2{
-        top: -35px;
+        top: -36px;
         #tableau{
             font-size: 14px;
             margin: 0;
@@ -264,7 +315,7 @@
         }
     }
     #story-3{
-        top: -70px;
+        top: -72px;
         div{
             width: auto;
             height: auto;
@@ -295,7 +346,7 @@
         }
     }
     #story-4{
-        top: -105px;
+        top: -108px;
         display: flex;
         justify-content: space-around;
         .passion{
@@ -320,7 +371,7 @@
         padding-left: 30px;
         p{
             font-size: 20px;
-            margin: 15px 0;
+            margin: 14px 0;
             i{
                 position: relative;
                 font-size: 20px;
@@ -332,7 +383,6 @@
         }
     }
     #googlemap{
-        border: 3px red solid;
         width: 650px;
         height: 288px;
     }

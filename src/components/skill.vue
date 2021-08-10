@@ -134,11 +134,6 @@ export default {
   methods: {
   }
 }
-/* <router-view v-slot="{ Component }">
-          <transition id="slide" name="slide" mode="out-in">
-            <component :is="Component" />
-          </transition>
-        </router-view> */
 </script>
 
 <style lang="scss">
