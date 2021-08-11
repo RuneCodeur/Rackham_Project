@@ -1,0 +1,111 @@
+#perso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #fullbody{
+        opacity: 0.5;
+    }
+    *{
+        position: absolute;
+    }
+    #feet-left{
+        z-index: 3;
+        margin-left: -104px;
+        margin-top: 284px;
+    }
+    #feet-right{
+        z-index: 5;
+        margin-left: 45px;
+        margin-top: 287px;
+    }
+    #leg-right{
+        z-index: 4;
+        margin-left: 26px;
+        margin-top: 176px;
+    }
+    #knee-left{
+        z-index: 2;
+        margin-left: -68px;
+        margin-top: 217px;
+    }
+    #leg-left{
+        z-index: 2;
+        margin-left: -44px;
+        margin-top: 114px;
+    }
+    #belt{
+        z-index: 5;
+        margin-left: 2px;
+        margin-top: 61px;
+    }
+    #chest{
+        z-index: 4;
+        margin-left: -7px;
+        margin-top: -73px;
+    }
+    #arm-right{
+        z-index: 3;
+        margin-left: -69px;
+        margin-top: -40px;
+    }
+    #cap-ext1{
+        z-index: 2;
+        margin-left: -88px;
+        margin-top: -106px;
+    }
+    #biceps-left{
+        z-index: 6;
+        margin-left: 56px;
+        margin-top: -70px;
+    }
+    #forearm-left{
+        z-index: 7;
+        margin-left: -1px;
+        margin-top: -49px;
+    }
+    #cap-ext2 {
+        z-index: 5;
+        margin-left: 65px;
+        margin-top: 0px;
+    }
+    #cap-ext3 {
+        z-index: 2;
+        margin-left: 38px;
+        margin-top: 0px;
+    }
+    #cap-ext4 {
+        margin-left: -65px;
+        margin-top: 28px;
+    }
+    #neck {
+        z-index: 4;
+        margin-left: 12px;
+        margin-top: -148px;
+    }
+    #head {
+        z-index: 4;
+        margin-left: 25px;
+        margin-top: -205px;
+    }
+    #feather1 {
+        z-index: 3;
+        margin-left: 18px;
+        margin-top: -268px;
+    }
+    #feather2 {
+        z-index: 3;
+        margin-left: 100px;
+        margin-top: -268px;
+    }
+    #feather3 {
+        z-index: 3;
+        margin-left: 96px;
+        margin-top: -221px;
+    }
+    #feather4 {
+        opacity: 1;
+        z-index: 3;
+        margin-left: 83px;
+        margin-top: -196px;
+    }
+}

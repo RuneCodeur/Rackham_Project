@@ -11,6 +11,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     .perso-animated{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 0;
         min-width: 400px;
         height: 670px;
