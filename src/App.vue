@@ -1,30 +1,45 @@
 <template>
   <div class="sign">
-    <div class="perso-animated">
 
-      <div id='perso'>
+    <div class="perso-animated">
+        <div class="A-leg1">
+          <img :src="require('../src/assets/knee-left.svg')" width="70" id="knee-left">
+          <div class="A-legleft">
+            <img :src="require('../src/assets/leg-left.svg')" width="78" id="leg-left">
+          </div>
+        </div>
+        <div class="A-leg2">
+          <img :src="require('../src/assets/leg-right.svg')" width="82" id="leg-right">
+          <div class="up">
+            <div class="A-chest">
+              <img :src="require('../src/assets/cap-ext1.svg')" width="10" id="cap-ext1">
+              <img :src="require('../src/assets/cap-ext3.svg')" width="92" id="cap-ext3">
+              <img :src="require('../src/assets/cap-ext4.svg')" width="41" id="cap-ext4">
+              <img :src="require('../src/assets/arm-right.svg')" width="63" id="arm-right">
+              <img :src="require('../src/assets/chest.svg')" width="172" id="chest">
+              <img :src="require('../src/assets/belt.svg')" width="131" id="belt">
+              <img :src="require('../src/assets/cap-ext2.svg')" width="50" id="cap-ext2">
+              <div class="A-neck">
+                <img :src="require('../src/assets/neck.svg')" width="37" id="neck">
+                <div class="A-head">
+                  <div class="A-hat">
+                    <img :src="require('../src/assets/feather1.svg')" width="68" id="feather1">
+                    <img :src="require('../src/assets/feather4.svg')" width="75" id="feather4">
+                    <img :src="require('../src/assets/feather3.svg')" width="90" id="feather3">
+                    <img :src="require('../src/assets/feather2.svg')" width="100" id="feather2">
+                  </div>
+                  <img :src="require('../src/assets/head.svg')" width="148" id="head">
+                </div>
+              </div>
+              <div class="A-arm">
+                <img :src="require('../src/assets/biceps-left.svg')" width="52" id="biceps-left">
+                <img :src="require('../src/assets/forearm-left.svg')" width="109" id="forearm-left">
+              </div>
+            </div>
+          </div>
+        </div>
         <img :src="require('../src/assets/feet-left.svg')" width="95" id="feet-left">
         <img :src="require('../src/assets/feet-right.svg')" width="49" id="feet-right">
-        <img :src="require('../src/assets/leg-right.svg')" width="82" id="leg-right">
-        <img :src="require('../src/assets/knee-left.svg')" width="70" id="knee-left">
-        <img :src="require('../src/assets/leg-left.svg')" width="78" id="leg-left">
-        <img :src="require('../src/assets/belt.svg')" width="131" id="belt">
-        <img :src="require('../src/assets/chest.svg')" width="172" id="chest">
-        <img :src="require('../src/assets/arm-right.svg')" width="63" id="arm-right">
-        <img :src="require('../src/assets/cap-ext1.svg')" width="10" id="cap-ext1">
-        <img :src="require('../src/assets/biceps-left.svg')" width="52" id="biceps-left">
-        <img :src="require('../src/assets/forearm-left.svg')" width="109" id="forearm-left">
-        <img :src="require('../src/assets/cap-ext2.svg')" width="50" id="cap-ext2">
-        <img :src="require('../src/assets/cap-ext3.svg')" width="90" id="cap-ext3">
-        <img :src="require('../src/assets/cap-ext4.svg')" width="41" id="cap-ext4">
-        <img :src="require('../src/assets/neck.svg')" width="37" id="neck">
-        <img :src="require('../src/assets/head.svg')" width="148" id="head">
-        <img :src="require('../src/assets/feather1.svg')" width="68" id="feather1">
-        <img :src="require('../src/assets/feather2.svg')" width="100" id="feather2">
-        <img :src="require('../src/assets/feather4.svg')" width="75" id="feather4">
-        <img :src="require('../src/assets/feather3.svg')" width="90" id="feather3">
-      </div>
-
     </div>
 
     <div class="no-perso">

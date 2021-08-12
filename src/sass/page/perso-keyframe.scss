@@ -1,0 +1,177 @@
+@keyframes a-legright {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-8deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-knee {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-legleft {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-up {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+@keyframes a-belt {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(4px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+@keyframes a-chest {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-arm-right {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-biceps {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-forearm {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-cap {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(4deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-neck {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-head {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(8deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-feather1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(50deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-feather2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-feather3 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(25deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes a-feather4 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

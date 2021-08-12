@@ -63,36 +63,36 @@
           <div>Projets OpenClassrooms</div>
           <div class="projet">
             <div class="descri">réaliser un site web à partir d'une maquette</div>
-            <a href="https://github.com/rackhamledev/JonathanLarroux_2_21102020">projet 2</a>
+            <a href="https://github.com/rackhamledev/JonathanLarroux_2_21102020" target="_blank">projet 2</a>
           </div>
           <div class="projet">
             <div class="descri">utiliser des animations CSS</div>
-            <a href="https://github.com/rackhamledev/JonathanLarroux_3_06122020">projet 3</a>
+            <a href="https://github.com/rackhamledev/JonathanLarroux_3_06122020" target="_blank">projet 3</a>
           </div>
           <div class="projet">
             <div class="descri">optimiser un site web existant</div>
-            <a href="https://github.com/rackhamledev/JonathanLarroux_4_22012021">projet 4</a>
+            <a href="https://github.com/rackhamledev/JonathanLarroux_4_22012021" target="_blank">projet 4</a>
           </div>
           <div class="projet">
             <div class="descri">construire un site E-commerce</div>
-            <a href="https://github.com/rackhamledev/JonathanLarroux_5_08032021">projet 5</a>
+            <a href="https://github.com/rackhamledev/JonathanLarroux_5_08032021" target="_blank">projet 5</a>
           </div>
           <div class="projet">
             <div class="descri">réaliser une API sécurisée</div>
-            <a href="https://github.com/rackhamledev/JonathanLarroux_6_29042021">projet 6</a>
+            <a href="https://github.com/rackhamledev/JonathanLarroux_6_29042021" target="_blank">projet 6</a>
           </div>
           <div class="projet">
             <div class="descri">créer un réseau social d'entreprise</div>
-            <a href="https://github.com/rackhamledev/jonathanlarroux7_15062021">projet 7</a>
+            <a href="https://github.com/rackhamledev/jonathanlarroux7_15062021" target="_blank">projet 7</a>
           </div>
           <div>Projets perso</div>
           <div class="projet">
             <div class="descri">création d'un générateur de description aléatoire pour le dessin</div>
-            <a href="https://github.com/rackhamledev/projet-DreamSquid">projet dreamsquid</a>
+            <a href="https://github.com/rackhamledev/projet-DreamSquid" target="_blank">projet dreamsquid</a>
           </div>
           <div class="projet">
             <div class="descri"> création d'un CV site web d'inspiration jeu de rôle pirate</div>
-            <a href="https://github.com/rackhamledev/Rackham_Project"> cv rackham</a>
+            <a href="https://github.com/rackhamledev/Rackham_Project" target="_blank"> cv rackham</a>
           </div>
         </div>
       </li>

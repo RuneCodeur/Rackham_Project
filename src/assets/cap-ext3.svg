@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="56.454929mm"
+   width="57.416874mm"
    height="115.49976mm"
-   viewBox="0 0 56.454928 115.49976"
+   viewBox="0 0 57.416873 115.49976"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.52410024"
-     inkscape:cx="-357.75599"
-     inkscape:cy="-63.91907"
+     inkscape:zoom="23.718069"
+     inkscape:cx="212.01136"
+     inkscape:cy="132.15663"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -64,10 +64,10 @@
          transform="translate(-25.488651,-41.421517)">
         <path
            style="opacity:1;vector-effect:none;fill:#781326;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-           d="M 70.746652,165.94402 C 92.764281,197.54694 169.7479,270.08147 80.53943,281.44378 71.484775,269.1568 59.442283,209.83849 70.746652,165.94402 Z"
+           d="m 70.746652,165.94402 c 22.017629,31.60292 99.001248,104.13745 9.792778,115.49976 l -5.594766,-0.0614 C 66.788831,263.80653 62.065712,206.29041 70.746652,165.94402 Z"
            id="path1160"
            inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccc" />
+           sodipodi:nodetypes="cccc" />
       </g>
     </g>
   </g>
