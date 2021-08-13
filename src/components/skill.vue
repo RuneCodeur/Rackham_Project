@@ -2,7 +2,7 @@
   <div class="skill">
 
     <div class="stats">
-      <h2> statistiques</h2>
+      <h3> statistiques</h3>
       <ul>
 
         <li>
