@@ -3,41 +3,41 @@
 
     <div class="perso-animated">
         <div class="A-legright">
-          <img :src="require('../src/assets/knee-right.svg')" width="70" id="knee-right">
-            <img :src="require('../src/assets/leg-right.svg')" width="78" id="leg-right">
+          <img :src="require('../src/assets/knee-right.png')" width="70" id="knee-right">
+            <img :src="require('../src/assets/leg-right.png')" width="78" id="leg-right">
         </div>
         <div class="A-legleft">
-          <img :src="require('../src/assets/leg-left.svg')" width="82" id="leg-left">
+          <img :src="require('../src/assets/leg-left.png')" width="82" id="leg-left">
           <div class="A-up">
             <div class="A-chest">
-              <img :src="require('../src/assets/cap-ext1.svg')" width="10" id="cap-ext1">
-              <img :src="require('../src/assets/cap-ext3.svg')" width="92" id="cap-ext3">
-              <img :src="require('../src/assets/cap-ext4.svg')" width="41" id="cap-ext4">
-              <img :src="require('../src/assets/pc.svg')" width="63" id="pc">
-              <img :src="require('../src/assets/chest.svg')" width="172" id="chest">
-              <img :src="require('../src/assets/belt.svg')" width="131" id="belt">
-              <img :src="require('../src/assets/cap-ext2.svg')" width="50" id="cap-ext2">
+              <img :src="require('../src/assets/cap-ext1.png')" width="10" id="cap-ext1">
+              <img :src="require('../src/assets/cap-ext3.png')" width="92" id="cap-ext3">
+              <img :src="require('../src/assets/cap-ext4.png')" width="41" id="cap-ext4">
+              <img :src="require('../src/assets/pc.png')" width="63" id="pc">
+              <img :src="require('../src/assets/chest.png')" width="172" id="chest">
+              <img :src="require('../src/assets/belt.png')" width="131" id="belt">
+              <img :src="require('../src/assets/cap-ext2.png')" width="50" id="cap-ext2">
               <div class="A-neck">
-                <img :src="require('../src/assets/neck.svg')" width="37" id="neck">
+                <img :src="require('../src/assets/neck.png')" width="37" id="neck">
                 <div class="A-head">
                   <div class="A-hat">
-                    <img :src="require('../src/assets/feather1.svg')" width="68" id="feather1">
-                    <img :src="require('../src/assets/feather4.svg')" width="75" id="feather4">
-                    <img :src="require('../src/assets/feather3.svg')" width="90" id="feather3">
-                    <img :src="require('../src/assets/feather2.svg')" width="100" id="feather2">
+                    <img :src="require('../src/assets/feather1.png')" width="68" id="feather1">
+                    <img :src="require('../src/assets/feather4.png')" width="75" id="feather4">
+                    <img :src="require('../src/assets/feather3.png')" width="90" id="feather3">
+                    <img :src="require('../src/assets/feather2.png')" width="100" id="feather2">
                   </div>
-                  <img :src="require('../src/assets/head.svg')" width="148" id="head">
+                  <img :src="require('../src/assets/head.png')" width="148" id="head">
                 </div>
               </div>
               <div class="A-arm">
-                <img :src="require('../src/assets/biceps.svg')" width="52" id="biceps">
-                <img :src="require('../src/assets/forearm.svg')" width="109" id="forearm">
+                <img :src="require('../src/assets/biceps.png')" width="52" id="biceps">
+                <img :src="require('../src/assets/forearm.png')" width="109" id="forearm">
               </div>
             </div>
           </div>
         </div>
-        <img :src="require('../src/assets/feet-right.svg')" width="95" id="feet-right">
-        <img :src="require('../src/assets/feet-left.svg')" width="49" id="feet-left">
+        <img :src="require('../src/assets/feet-right.png')" width="95" id="feet-right">
+        <img :src="require('../src/assets/feet-left.png')" width="49" id="feet-left">
     </div>
 
     <div class="no-perso">
