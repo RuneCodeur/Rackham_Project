@@ -4,8 +4,8 @@
       <li>
         <h3  id="titleStory-1" @click="story1 = true, story2 = false, story3 = false, story4 = false">Profil</h3>
         <div id="story-1" v-show="story1">
-          Je me nome Jonathan LARROUX et j'ai 28 ans.<br> <br>
-          Curieux, persévérant et autonome, je suis développeur web récemment sorti de l'école OpenClassrooms. Je maitrise correctement les langages Javascript, vue, node, MySQL git/github mais aussi la réalisation et la présentation de projet, l'optimisation SEO et la sécurité de l'OWASP. Les différents projets pour obtenir le diplôme de développeur Web m'on permis de valider mes compétences, ainsi que de gagner en aisance dans la lecture et l'écriture du code.<br>
+          Je me nomme Jonathan LARROUX et j'ai 28 ans.<br><br>
+          Curieux, persévérant et autonome, je suis développeur web récemment sorti de l'école Open Classrooms. Je maitrise correctement les langages Javascript, vue, node, MySQL git/github mais aussi la réalisation et la présentation de projet, l'optimisation SEO et la sécurité de l'OWASP. Les différents projets pour obtenir le diplôme de développeur Web m'ont permis de valider mes compétences, ainsi que de gagner en aisance dans la lecture et l'écriture du code.<br>
           <br>
           En ce moment, je cherche un poste de développeur Web dans la région Toulousaine.
         </div>
@@ -91,7 +91,7 @@
             <a href="https://github.com/rackhamledev/projet-DreamSquid" target="_blank">projet dreamsquid</a>
           </div>
           <div class="projet">
-            <div class="descri"> création d'un CV site web d'inspiration jeu de rôle pirate</div>
+            <div class="descri">création d'un CV site web d'inspiration jeu de rôle pirate</div>
             <a href="https://github.com/rackhamledev/Rackham_Project" target="_blank"> cv rackham</a>
           </div>
         </div>
@@ -132,16 +132,6 @@ export default {
       story3: false,
       story4: false
     }
-  },
-
-  mounted: function () {
-  },
-
-  methods: {
-
   }
 }
 </script>
-
-<style lang="scss">
-</style>

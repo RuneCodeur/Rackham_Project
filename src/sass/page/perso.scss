@@ -1,27 +1,31 @@
-#feet-left{
+#feet-right{
     margin-left: -104px;
     margin-top: 284px;
 }
-#feet-right{
+#feet-left{
     margin-left: 45px;
     margin-top: 287px;
 }
-#knee-left{
-    left: 93px;
-    bottom: 52px;
-}
-#leg-right{
-    left: 184px;
+#knee-right{
+    left: 95px;
     bottom: 52px;
 }
 #leg-left{
+    left: 184px;
+    bottom: 52px;
+}
+#leg-right{
     left: 112px;
     bottom: 147px;
+    animation-name: kf-legright;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transform-origin: 55% 100%;
 }
 #belt{
     left: 130px;
     bottom: 210px;
-    animation-name: a-belt;
+    animation-name: kf-belt;
     animation-iteration-count: infinite;
     transform-origin: 50% 50%;
     animation-duration: 5s;
@@ -30,10 +34,10 @@
     left: 103px;
     top: 169px;
 }
-#arm-right{
+#pc{
     left: 96px;
     top: 233px;
-    animation-name: a-arm-right;
+    animation-name: kf-pc;
     animation-iteration-count: infinite;
     transform-origin: 50% 10%;
     animation-duration: 5s;
@@ -43,14 +47,14 @@
     left: 103px;
     top: 223px;
 }
-#biceps-left{
+#biceps{
     left: 227px;
     top: 215px;
 }
-#forearm-left{
+#forearm{
     left: 138px;
     top: 251px;
-    animation-name: a-forearm;
+    animation-name: kf-forearm;
     animation-iteration-count: infinite;
     transform-origin: 90% 80%;
     animation-duration: 5s;
@@ -59,7 +63,7 @@
 #cap-ext2 {
     right: 111px;
     top: 211px;
-    animation-name: a-cap;
+    animation-name: kf-cap;
     animation-iteration-count: infinite;
     transform-origin: 45% 0%;
     animation-duration: 5s;
@@ -68,7 +72,7 @@
 #cap-ext3 {
     top: 238px;
     left: 191px;
-    animation-name: a-cap;
+    animation-name: kf-cap;
     animation-iteration-count: infinite;
     transform-origin: 45% 0%;
     animation-duration: 5s;
@@ -76,7 +80,7 @@
 #cap-ext4 {
     left: 113px;
     top: 305px;
-    animation-name: a-cap;
+    animation-name: kf-cap;
     animation-iteration-count: infinite;
     transform-origin: 45% 0%;
     animation-duration: 5s;
@@ -93,7 +97,7 @@
 #feather1 {
     top: 40px;
     left: 180px;
-    animation-name: a-feather1;
+    animation-name: kf-feather1;
     animation-iteration-count: infinite;
     transform-origin: 90% 100%;
     animation-duration: 5s;
@@ -102,7 +106,7 @@
 #feather2 {
     top: 50px;
     left: 240px;
-    animation-name: a-feather2;
+    animation-name: kf-feather2;
     animation-iteration-count: infinite;
     transform-origin: 0% 90%;
     animation-duration: 5s;
@@ -111,7 +115,7 @@
 #feather3 {
     top: 90px;
     left: 240px;
-    animation-name: a-feather3;
+    animation-name: kf-feather3;
     animation-iteration-count: infinite;
     transform-origin: 0% 70%;
     animation-duration: 5s;
@@ -120,14 +124,14 @@
 #feather4 {
     top: 120px;
     left: 240px;
-    animation-name: a-feather4;
+    animation-name: kf-feather4;
     animation-iteration-count: infinite;
     transform-origin: 0% 15%;
     animation-duration: 5s;
     animation-delay: 1.8s;
 }
 
-.A-leg1, .A-leg2, .up,.A-legleft, .A-chest,.A-arm, .A-neck, .A-head, .A-hat{
+.A-legright, .A-legleft, .A-up, .A-leg, .A-chest, .A-arm, .A-neck, .A-head, .A-hat{
     width: 400px;
     height: 670px;
     display: flex;
@@ -137,35 +141,31 @@
     animation-iteration-count: infinite;
     animation-duration: 5s;
 }
-.A-legleft{
-    animation-name: a-legleft;
-    transform-origin: 40% 78%;
-}
-.A-leg1{
-    animation-name: a-knee;
+.A-legright{
+    animation-name: kf-knee;
     transform-origin: 30% 90%;
 }
-.A-leg2{
-    animation-name: a-legright;
+.A-legleft{
+    animation-name: kf-legleft;
     transform-origin: 60% 90%;
-    .up{
-        animation-name: a-up;
+    .A-up{
+        animation-name: kf-up;
         transform-origin: 50% 50%;
         .A-chest{
-            animation-name: a-chest;
-            animation-delay: 0.5s;
+            animation-name: kf-chest;
             transform-origin: 50% 52%;
+            animation-delay: 0.5s;
             .A-arm{
-                animation-name: a-biceps;
+                animation-name: kf-biceps;
                 transform-origin: 63% 35%;
                 animation-delay: 0.7s;
             }
             .A-neck{
-                animation-name: a-neck;
+                animation-name: kf-neck;
                 transform-origin: 50% 28%;
                 animation-delay: 0.5s;
                 .A-head{
-                    animation-name: a-head;
+                    animation-name: kf-head;
                     transform-origin: 50% 25%;
                     animation-delay: 1s;
                 }

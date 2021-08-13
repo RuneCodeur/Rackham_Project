@@ -11,20 +11,3 @@
 
   </div>
 </template>
-
-<script>
-export default {
-  data () {
-    return {
-      /* base des valeurs */
-    }
-  },
-
-  methods: {
-    /* base des fonctions */
-  }
-}
-</script>
-
-<style lang="scss">
-</style>
