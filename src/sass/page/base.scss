@@ -1,9 +1,12 @@
-body{
+html{
+    background: url('../src/assets/wood.jpg');
+    background-size: cover;
+}
+body, html{
     margin: 0;
     display: flex;
     justify-content: center;
-    background: url('../src/assets/wood.jpg');
-    background-size: cover;
+    overflow: hidden;
 }
 *{
     color: black;
@@ -12,4 +15,50 @@ body{
 }
 h1{
     font-family: 'Trade Winds', cursive;
+}
+
+@media screen and (max-width : 1130px){
+    .sign{
+        transform: scale(0.9) translateY(-38px);
+    }
+}
+@media screen and (max-width : 1015px){
+    .sign{
+        transform: scale(0.8) translateY(-88px);
+    }
+}
+@media screen and (max-width : 905px){
+    .sign{
+        transform: scale(0.7) translateY(-152px);
+    }
+}
+@media screen and (max-width : 800px){
+    .sign{
+        transform: scale(0.6) translateY(-236px);
+    }
+}
+@media screen and (max-width : 675px){
+    .sign{
+        transform: scale(0.5)  translateY(-354px);
+    }
+}
+@media screen and (max-width : 565px){
+    .sign{
+        transform: scale(0.4)  translateY(-530px);
+    }
+}
+@media screen and (max-width : 450px){
+    .sign{
+        transform: scale(0.35) translateY(-660px);
+    }
+}
+@media screen and (max-width : 395px){
+    .sign{
+        transform: scale(0.3) translateY(-830px);
+    }
+}
+@media screen and (max-width : 338px){
+    .sign{
+        transform: scale(0.25) translateY(-1070px);
+    }
 }
