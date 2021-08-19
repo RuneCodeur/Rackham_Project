@@ -1,12 +1,21 @@
-html{
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: url('../src/assets/wood.jpg');
     background-size: cover;
-}
-body, html{
+    width: 100%;
+    height: 850px;
     margin: 0;
+    padding: 0;
+}
+#app{
+    width: 100%;
+    height: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 *{
     color: black;
@@ -18,47 +27,74 @@ h1{
 }
 
 @media screen and (max-width : 1130px){
-    .sign{
-        transform: scale(0.9) translateY(-38px);
+    body{
+        height: 750px;
+        .sign{
+            transform: scale(0.9);
+        }
     }
 }
 @media screen and (max-width : 1015px){
-    .sign{
-        transform: scale(0.8) translateY(-88px);
+    body{
+        height: 675px;
+        .sign{
+            transform: scale(0.8);
+        }
     }
 }
 @media screen and (max-width : 905px){
-    .sign{
-        transform: scale(0.7) translateY(-152px);
+    body{
+        height: 600px;
+        .sign{
+            transform: scale(0.7);
+        }
     }
 }
 @media screen and (max-width : 800px){
-    .sign{
-        transform: scale(0.6) translateY(-236px);
-    }
+    body{
+        height: 525px;
+        .sign{
+            transform: scale(0.6);
+        }
+    } 
 }
 @media screen and (max-width : 675px){
-    .sign{
-        transform: scale(0.5)  translateY(-354px);
+    body{
+        height: 450px;
+        .sign{
+            transform: scale(0.5);
+        }
     }
 }
 @media screen and (max-width : 565px){
-    .sign{
-        transform: scale(0.4)  translateY(-530px);
+    body{
+        height: 350px;
+        .sign{
+            transform: scale(0.4);
+        }
     }
 }
 @media screen and (max-width : 450px){
-    .sign{
-        transform: scale(0.35) translateY(-660px);
+    body{
+        height: 300px;
+        .sign{
+            transform: scale(0.35);
+        }
     }
 }
 @media screen and (max-width : 395px){
-    .sign{
-        transform: scale(0.3) translateY(-830px);
+    body{
+        height: 250px;
+        .sign{
+            transform: scale(0.3);
+        }
     }
 }
 @media screen and (max-width : 338px){
-    .sign{
-        transform: scale(0.25) translateY(-1070px);
+    body{
+        height: 200px;
+        .sign{
+            transform: scale(0.25);
+        }
     }
 }
