@@ -1,0 +1,109 @@
+.skill{
+    @include flexAndCenter;
+    flex-direction: column;
+    .stats{
+        @include nomargNopad;
+        @include justFlex;
+        width: 680px;
+        height: 195px;
+        font-size: 20px;
+        flex-direction: column;
+        #statistiques{
+            @include flexAndCenter;
+            font-size: 30px;
+            margin: 5px 0;
+            flex-direction: column;
+        }
+        ul{
+            @include nomargNopad;
+            @include justFlex;
+            margin-top: 5px;
+            justify-content: space-around;
+            li{
+                width: 105px;
+                height: 70px;
+                border: 1px $colorBlack solid;
+                list-style: none;
+                text-align: center;
+                .stat{
+                    @include nomargNopad;
+                    .titleStat{
+                        font-size: 20px;
+                    }
+                    .value{
+                        @include flexAndCenter;
+                        bottom: 5px;
+                        font-size: 35px;
+                        flex-direction: column;
+                        position: relative;
+                    }
+                }
+                .descri{
+                    width: 640px;
+                    top: 10px;
+                    border: 3px $colorBlack solid;
+                    position: relative;
+                }
+                .fo{
+                    left: 0;
+                }
+                .int{
+                    left: -135px;
+                }
+                .ad{
+                    left: -271px;
+                }
+                .vol{
+                    left: -407px;
+                }
+                .cha{
+                    left: -544px;
+                }
+            }
+        }
+    }
+    .volet-skill{
+        @include flexAndCenter;
+        flex-direction: column;
+        ul{
+            @include nomargNopad;
+            @include justFlex;
+            height: 235px;
+            width: 650px;
+            left: 0px;
+            overflow: hidden;
+            position: relative;
+            flex-direction: column;
+            li{
+                @include justFlex;
+                height: 36px;
+                div{
+                    height: 230px;
+                    width: 460px ;
+                    padding: 10px;
+                    background-color: $colorSecondary;
+                    position: relative;
+                    font-family: 'Hahmlet', serif;
+                }
+            }
+        }
+        #skill-1{
+            top: 0;
+        }
+        #skill-2{
+            top: -36px;
+        }
+        #skill-3{
+            top: -72px;
+        }
+        #skill-4{
+            top: -108px;
+        }
+        #skill-5{
+            top: -144px;
+        }
+        #skill-6{
+            top: -180px;
+        }  
+    }
+}

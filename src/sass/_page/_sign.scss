@@ -1,0 +1,75 @@
+.sign{
+    @include justFlex;
+    width: 1100px;
+    height: 675px;
+    padding: 20px 20px 20px 0;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background: url('../src/assets/paper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .perso-animated{
+        @include flexAndCenter;
+        width: 400px;
+        height: 670px;
+        flex-direction: column;
+        position: relative;
+        background-image: url(../src/assets/bg-perso.jpg);
+        *{
+            overflow: hidden;
+            user-select : none;
+        }
+        img{
+            user-select : none;
+            position: absolute;
+        }
+    }
+    .no-perso{
+        @include justFlex;
+        width: 700px;
+        flex-direction: column;
+        header{
+            @include flexAndCenter;
+            width: 700px;
+            .info-primary{
+                width: 600px;
+                min-width: 430px;
+                .name,.pseudo,.class,.level,.pv{
+                    @include flexAndCenter;
+                    margin: 4px 0;
+                    font-size: 20px;
+                    font-family: 'Trade Winds', cursive;
+                    
+                }
+            }
+        }
+        .view{
+            @include justFlex;
+            justify-content:space-around;
+            .routerLink{
+                @include flexAndCenter;
+                width: 200px;
+                height: 40px;
+                justify-content:space-around;
+                background-image: url('../src/assets/pinceau.png');
+                background-repeat: no-repeat;
+                background-size: cover;
+                h2{
+                    color: $colorPrimary;
+                    font-size: 20px;
+                    font-weight: 1000;
+                }
+            }
+            span{
+                @include justFlex;
+                height: 3px;
+                transition: 0.4s;
+                width: 200px;
+                background: $colorBlack;
+                position: absolute;
+                transform: scaleX(0);
+                transform-origin: left 50%;
+            }
+        }
+    }
+}

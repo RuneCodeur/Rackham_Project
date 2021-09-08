@@ -1,0 +1,119 @@
+.volet-story{
+    @include flexAndCenter;
+    flex-direction: column;
+    ul {
+        @include nomargNopad;
+        @include justFlex;
+        height: 425px;
+        width: 650px;
+        left: 0px;
+        margin: 15px 0 0 0;
+        overflow: hidden;
+        position: relative;
+        flex-direction: column;
+        li{
+            display: flex;
+            height: 36px;
+            #story-1, #story-2, #story-3, #story-4, div{
+                font-family: 'Hahmlet', serif;
+                position: relative;
+                height: 430px;
+                padding: 10px;
+                width: 460px ;
+                background-color: $colorSecondary;
+                div{
+                    background-color:rgba(0, 0, 0, 0);
+                }
+            }
+        }
+    }
+    #story-1{
+        top: 0;
+        z-index: 1;
+    }
+    #story-2{
+        top: -36px;
+        #tableau{
+            @include nomargNopad;
+            @include justFlex;
+            font-size: 14px;
+            width: 90%;
+            flex-direction: column;
+            .exp{
+                @include flexAndCenter;
+                @include nomargNopad;
+                height: 60px;
+                margin: 2px 0;
+                border-bottom: 3px $colorBlack solid;
+                flex-direction: column;
+                flex-wrap: wrap;
+                .date{
+                    @include flexAndCenter;
+                    @include nomargNopad;
+                    height: 45px;
+                    width: 100px;
+                    border-right: 3px $colorTertiary solid;
+                    flex-direction: column;
+                }
+                .def{
+                    @include nomargNopad;
+                    font-size: 16px;
+                    width: 350px;
+                    height: 20px;
+                }
+                .lieu{
+                    @include nomargNopad;
+                    height: 20px;
+                    width: 350px;
+                }
+                
+            }.final{
+                    border-bottom: none;
+                }
+        }
+    }
+    #story-3{
+        top: -72px;
+        div{
+            @include nomargNopad;
+            @include flexAndCenter;
+            font-size: 20px;
+            width: auto;
+            height: auto;
+            align-items: flex-end;
+            a:hover{
+                text-decoration: underline;
+            }
+            a{
+                text-align: center;
+            }
+        }
+        .projet{
+            margin-bottom: 3px;
+            border-bottom: 3px $colorTertiary solid;
+            justify-content: space-between;
+            .descri{
+                font-size: 15px;
+                a{
+                    font-size: 18px;
+                    margin: 5px;
+                }
+            }
+        }
+    }
+    #story-4{
+        @include justFlex;
+        top: -108px;
+        justify-content: space-around;
+        .passion{
+            @include nomargNopad;
+            padding-top: 10px;
+            width: 90px;
+            height: 130px;
+            p{
+                @include nomargNopad;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -2,18 +2,22 @@
     left: 48px;
     bottom: 31px;
 }
+
 #feet-left{
     left: 220px;
     bottom: 26px;
 }
+
 #knee-right{
     left: 95px;
     bottom: 52px;
 }
+
 #leg-left{
     left: 184px;
     bottom: 52px;
 }
+
 #leg-right{
     left: 112px;
     bottom: 147px;
@@ -22,6 +26,7 @@
     animation-duration: 5s;
     transform-origin: 55% 100%;
 }
+
 #belt{
     left: 130px;
     bottom: 210px;
@@ -30,10 +35,12 @@
     transform-origin: 50% 50%;
     animation-duration: 5s;
 }
+
 #chest{
     left: 103px;
     top: 169px;
 }
+
 #pc{
     left: 96px;
     top: 233px;
@@ -43,14 +50,17 @@
     animation-duration: 5s;
     animation-delay: 0.7s;
 }
+
 #cap-ext1{
     left: 103px;
     top: 223px;
 }
+
 #biceps{
     left: 227px;
     top: 215px;
 }
+
 #forearm{
     left: 138px;
     top: 251px;
@@ -60,6 +70,7 @@
     animation-duration: 5s;
     animation-delay: 0.9s;
 }
+
 #cap-ext2 {
     right: 111px;
     top: 211px;
@@ -69,6 +80,7 @@
     animation-duration: 5s;
     animation-delay: 1.5s;
 }
+
 #cap-ext3 {
     top: 238px;
     left: 191px;
@@ -77,6 +89,7 @@
     transform-origin: 45% 0%;
     animation-duration: 5s;
 }
+
 #cap-ext4 {
     left: 113px;
     top: 305px;
@@ -86,14 +99,17 @@
     animation-duration: 5s;
     animation-delay: 0.75s;
 }
+
 #neck {
     top: 167px;
     left: 189px;
 }
+
 #head {
     left: 145px;
     top: 65px;
 }
+
 #feather1 {
     top: 40px;
     left: 180px;
@@ -112,6 +128,7 @@
     animation-duration: 5s;
     animation-delay: 1.6s;
 }
+
 #feather3 {
     top: 90px;
     left: 240px;
@@ -121,6 +138,7 @@
     animation-duration: 5s;
     animation-delay: 1.7s;
 }
+
 #feather4 {
     top: 120px;
     left: 240px;
@@ -141,10 +159,12 @@
     animation-iteration-count: infinite;
     animation-duration: 5s;
 }
+
 .A-legright{
     animation-name: kf-knee;
     transform-origin: 30% 90%;
 }
+
 .A-legleft{
     animation-name: kf-legleft;
     transform-origin: 60% 90%;

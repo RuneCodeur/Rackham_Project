@@ -2,7 +2,7 @@
   <div class="skill">
 
     <div class="stats">
-      <h3> statistiques</h3>
+      <div id="statistiques"> statistiques</div>
       <ul>
 
         <li>
@@ -56,12 +56,12 @@
             Maitrise les langages suivants : <br>
             vue<br>
             HTML5<br>
-            CSS3<br>
-            sass<br>
+            CSS3 / SASS<br>
             javascript<br>
             bootstrap<br>
             node<br>
-            MySQL
+            MySQL<br>
+            PHP
           </div>
         </li>
 

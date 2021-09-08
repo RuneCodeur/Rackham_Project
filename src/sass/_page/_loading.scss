@@ -2,8 +2,7 @@
     overflow: hidden;
 }
 
-.slide-enter-active,
-.slide-leave-active {
+.slide-enter-active, .slide-leave-active {
     transition: all 0.5s ease-out;
 }
 
@@ -13,10 +12,11 @@
 }
 
 .slide-enter-to {
-    position: relative;
     right: 0;
-  }
-  .slide-enter-from {
     position: relative;
+}
+
+.slide-enter-from {
     right: -100%;
-  }
+    position: relative;
+}

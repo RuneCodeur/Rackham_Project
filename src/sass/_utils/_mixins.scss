@@ -1,0 +1,14 @@
+@mixin flexAndCenter{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin nomargNopad{ 
+    padding: 0;
+    margin: 0;
+}
+
+@mixin justFlex{ 
+    display: flex;
+}
