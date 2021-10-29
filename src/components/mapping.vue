@@ -2,7 +2,7 @@
   <div class="volet-mapping">
 
     <div id="contact">
-      <p><a href="mailto:rackhamledev@gmail.com"><i class="fas fa-envelope"></i> rackhamledev@gmail.com</a></p>
+      <p><a href="mailto:jonathan.larroux@gmail.com"><i class="fas fa-envelope"></i> jonathan.larroux@gmail.com</a></p>
       <p><a href="https://twitter.com/RackhamLeDev" target="_blank"><i class="fab fa-twitter"></i> @RackhamLeDev</a></p>
       <p><a href="https://www.linkedin.com/in/jonathan-larroux/" target="_blank"><i class="fab fa-linkedin"></i> linkedin</a></p>
     </div>

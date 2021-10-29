@@ -5,9 +5,8 @@
         <h3  id="titleStory-1" @click="story1 = true, story2 = false, story3 = false, story4 = false">Profil</h3>
         <div id="story-1" v-show="story1">
           Je me nomme Jonathan LARROUX et j'ai 28 ans.<br><br>
-          Curieux, persévérant et autonome, je suis développeur web récemment sorti de l'école Open Classrooms. Je maitrise correctement les langages Javascript, vue, node, MySQL git/github mais aussi la réalisation et la présentation de projet, l'optimisation SEO et la sécurité de l'OWASP. Les différents projets pour obtenir le diplôme de développeur Web m'ont permis de valider mes compétences, ainsi que de gagner en aisance dans la lecture et l'écriture du code.<br>
-          <br>
-          En ce moment, je cherche un poste de développeur Web dans la région Toulousaine.
+          Passionné par la technologie, j’ai décidé il y a 1 an de faire une reconversion professionnelle afin de pouvoir lier travail et passion. Aujourd'hui, je suis titulaire du diplôme de développeur web de l'école OpenClassrooms (niveau bac +2) et je souhaite continuer dans ma progression. Le cursus de Développeur FullStack de l'école 3W Academy en alternance me permettra d’obtenir le niveau de connaissance et de pratique que je souhaite acquérir. <br><br>
+          Afin de pouvoir concrétiser mon projet professionnel, je suis à la recherche d'une entreprise qui me permettrait d’allier l’enseignement théorique de l’alternance et la pratique en situation réelle du métier de développeur.<br>
         </div>
       </li>
 
@@ -62,10 +61,6 @@
         <div id="story-3" v-show="story3">
           <div>Projets OpenClassrooms</div>
           <div class="projet">
-            <div class="descri">réaliser un site web à partir d'une maquette</div>
-            <a href="https://github.com/rackhamledev/JonathanLarroux_2_21102020" target="_blank">projet 2</a>
-          </div>
-          <div class="projet">
             <div class="descri">utiliser des animations CSS</div>
             <a href="https://github.com/rackhamledev/JonathanLarroux_3_06122020" target="_blank">projet 3</a>
           </div>
@@ -92,7 +87,11 @@
           </div>
           <div class="projet">
             <div class="descri">création d'un CV site web d'inspiration jeu de rôle pirate</div>
-            <a href="https://github.com/rackhamledev/Rackham_Project" target="_blank"> cv rackham</a>
+            <a href="https://github.com/rackhamledev/Rackham_Project" target="_blank">cv rackham</a>
+          </div>
+          <div class="projet">
+            <div class="descri">site web de magasin de musique communautaire</div>
+            <a href="https://github.com/rackhamledev/Musical-Monk" target="_blank">Musical Monk</a>
           </div>
         </div>
       </li>

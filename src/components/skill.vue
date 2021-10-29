@@ -70,9 +70,7 @@
           <div id="skill-2" v-show="skill2">
             Communicatif <br>
             Responsable <br>
-            Pédagogue <br>
             Adaptable <br>
-            Optimiste <br>
             Imaginatif
           </div>
         </li>
